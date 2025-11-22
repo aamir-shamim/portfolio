@@ -1,0 +1,90 @@
+/* ====== General Reset ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ====== Body ====== */
+body {
+  background-color: #f8f9fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ====== Header ====== */
+header {
+  background: linear-gradient(135deg, #007bff, #00b4d8);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* ====== Section Styling ====== */
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #00b4d8;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* ====== Projects List ====== */
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+ul li {
+  background: #e3f2fd;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+ul li:hover {
+  background: #bbdefb;
+  transform: scale(1.02);
+}
+
+/* ====== Contact Links ====== */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Footer ====== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 0.9rem;
+}
+
